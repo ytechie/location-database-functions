@@ -1,5 +1,13 @@
 Azure Functions for interacting with a SQL database that can track location of a device/asset.
 
+## Configuration
+
+The following app settings (or environment variables) are required:
+* sqlUser
+* sqlPassword
+* sqlServer
+* sqlDb
+
 ## Examples
 
 Inserting Data: `curl 'http://localhost:7071/api/RecordLocation?lat=2&long=4'`
